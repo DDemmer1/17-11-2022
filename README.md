@@ -8,9 +8,10 @@ WS 22 - Arrays
 1. Erstellt ein ```int Array``` der größe 150. Füllt jeden Wert im Array mit dem Wert ```42``` 
 
 ⚠️ Advanced: Füllt jeden Wert des Arrays zufällig mit 1 oder 0 
- - ( ℹ️: ```Math.random()``` gibt einen zufälligen ```double``` Wert zurück
+ - ℹ️: ```Math.random()``` gibt einen zufälligen ```double``` Wert zurück
  - ```Math.round()``` kann einen float oder ```double``` runden gibt jedoch einen ```long``` zuück
  - mit ```(int)``` kann man Datentypen zu einem Integer casten
+ 
 
 
 -------------------------------------------------------
@@ -19,6 +20,9 @@ WS 22 - Arrays
 2. Die Methode ```irgendeinString.toCharArray()``` gibt als Rückgabewert einen ```String``` als ```char[]``` aus. Versucht eine Methode ```void reverse(String string)``` zu schreiben, die einen ```String``` in umgekehrter Reihenfolge in der Konsole ausgibt. ( Aus "Java" wird "avaJ")
 
 -------------------------------------------------------
+
+  ℹ️ Tipp: Mit ```Arrays.toString(irgendeinArray)``` lässt sich ein schöner ```String``` des Arrays erzeugen den man in der Konsole ausgeben kann
+
 
 
   ### ℹ️ Resourcen:
